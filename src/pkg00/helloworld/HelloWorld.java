@@ -12,6 +12,7 @@
  */
 package pkg00.helloworld;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 /**
  * Classe principale contenant la méthode main.
  *
@@ -28,14 +29,34 @@ public class HelloWorld {
         System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
         
         Scanner sc = new Scanner(System.in);
+        
         int monAge = 0;
 
         System.out.print("Quel est votre age ? : ");
         monAge = sc.nextInt();
 
-        System.out.println("Vous avez " + monAge + " an(s)");
+        try {
+            System.out.println("Vous avez " + monAge + " an(s)");
+        } catch (InputMismatchException e) {
+            System.out.println("Erreur : vous devez saisir un entier !");
+            sc.nextLine(); // vider le buffer
+        }
+                      
         
-        
+
+        System.out.print("Saisir x : ");
+        int x = sc.nextInt();
+
+        System.out.print("Saisir y : ");
+        int y = sc.nextInt();
+
+        System.out.println("Avant permutation : x=" + x + " y=" + y);
+
+        int temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("Après permutation : x=" + x + " y=" + y);
     }
     
    
