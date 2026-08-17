@@ -25,7 +25,7 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        System.out.println("Hello World by PV on github!");
+        System.out.println("Hello World by PV on github via terminal!");
         
     }
     
