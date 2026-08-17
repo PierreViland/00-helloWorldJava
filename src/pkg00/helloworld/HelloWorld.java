@@ -11,7 +11,7 @@
  * @see pkg00.helloworld.HelloWorld#test(float)
  */
 package pkg00.helloworld;
-
+import java.util.Scanner;
 /**
  * Classe principale contenant la méthode main.
  *
@@ -25,17 +25,18 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        System.out.println("Hello World by PV on github via terminal!");
+        System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
+        
+        Scanner sc = new Scanner(System.in);
+        int monAge = 0;
+
+        System.out.print("Quel est votre age ? : ");
+        monAge = sc.nextInt();
+
+        System.out.println("Vous avez " + monAge + " an(s)");
+        
         
     }
     
-    /**
-     * Convertit un nombre flottant en entier.La conversion est réalisée via un cast explicite.   *
-     * @param a Valeur flottante à convertir.
-     * @return Valeur entière résultante.
-     */
-    public int test(float a)
-    {
-        return (int)a;
-    }
+   
 }
