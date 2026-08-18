@@ -26,7 +26,7 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
+        /*System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
         
         Scanner sc = new Scanner(System.in);
         
@@ -57,6 +57,32 @@ public class HelloWorld {
         y = temp;
 
         System.out.println("Après permutation : x=" + x + " y=" + y);
+        
+        
+        
+        String texte = "Bonjour";
+
+        System.out.println(texte.getClass());
+        System.out.println(((Object) texte).getClass().getSimpleName());*/
+        
+       /* Scanner sc = new Scanner(System.in);
+
+        System.out.print("Entrez un caractère : ");
+        char c = sc.next().charAt(0);
+
+        int code = (int) c;
+        System.out.println("Caractère saisi : " + c);
+        System.out.println("ASCII décimal     : " + code);
+        System.out.println("ASCII hexadécimal : " + Integer.toHexString(code));
+        System.out.println("ASCII binaire     : " + Integer.toBinaryString(code));*/
+        
+        int a = -21430, b = 4872;
+
+        System.out.println("a+b = " + (a+b));
+        System.out.println("a-b = " + (a-b));
+        System.out.println("a*b = " + (a*b));
+        System.out.println("a/b = " + (a/b));
+        System.out.println("a%b = " + (a%b));
     }
     
    
