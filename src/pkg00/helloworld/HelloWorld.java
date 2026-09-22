@@ -27,65 +27,23 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        System.out.println("CIEL1 Test matin");
+        System.out.println("Test après midi");
+        int a = 4, b = 2;
+        //Commentaire
+
         
-        /*System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
+        /*
+        dsdsd
+        dsds
+        dsds
+        */
         
-        Scanner sc = new Scanner(System.in);
-        
-        int monAge = 0;
-
-        System.out.print("Quel est votre age ? : ");
-        monAge = sc.nextInt();
-
-        try {
-            System.out.println("Vous avez " + monAge + " an(s)");
-        } catch (InputMismatchException e) {
-            System.out.println("Erreur : vous devez saisir un entier !");
-            sc.nextLine(); // vider le buffer
-        }
-                      
-        
-
-        System.out.print("Saisir x : ");
-        int x = sc.nextInt();
-
-        System.out.print("Saisir y : ");
-        int y = sc.nextInt();
-
-        System.out.println("Avant permutation : x=" + x + " y=" + y);
-
-        int temp = x;
-        x = y;
-        y = temp;
-
-        System.out.println("Après permutation : x=" + x + " y=" + y);
-        
-        
-        
-        String texte = "Bonjour";
-
-        System.out.println(texte.getClass());
-        System.out.println(((Object) texte).getClass().getSimpleName());*/
-        
-       /* Scanner sc = new Scanner(System.in);
-
-        System.out.print("Entrez un caractère : ");
-        char c = sc.next().charAt(0);
-
-        int code = (int) c;
-        System.out.println("Caractère saisi : " + c);
-        System.out.println("ASCII décimal     : " + code);
-        System.out.println("ASCII hexadécimal : " + Integer.toHexString(code));
-        System.out.println("ASCII binaire     : " + Integer.toBinaryString(code));*/
-        
-        int a = -21430, b = 4872;
-
         System.out.println("a+b = " + (a+b));
         System.out.println("a-b = " + (a-b));
         System.out.println("a*b = " + (a*b));
         System.out.println("a/b = " + (a/b));
         System.out.println("a%b = " + (a%b));
+         System.out.println("CIEL1 FIN");
     }
     
    
