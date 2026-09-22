@@ -22,7 +22,7 @@ public class HelloWorld {
     
 
     /**
-     * Point d'entrée du programme.
+     * Point d'entrée du programme. C'est la méthode main
      *
      * @param args Arguments de la ligne de commande. 
      */
