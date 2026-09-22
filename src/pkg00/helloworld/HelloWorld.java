@@ -27,23 +27,10 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        System.out.println("Test après midi");
-        int a = 4, b = 2;
-        //Commentaire
-
         
-        /*
-        dsdsd
-        dsds
-        dsds
-        */
-        
-        System.out.println("a+b = " + (a+b));
-        System.out.println("a-b = " + (a-b));
-        System.out.println("a*b = " + (a*b));
-        System.out.println("a/b = " + (a/b));
-        System.out.println("a%b = " + (a%b));
-         System.out.println("CIEL1 FIN");
+        //Exo 2 Achage d'un message dans la console
+        System.out.println("Message Ligne 1");
+        System.out.println("Message Ligne 2");
     }
     
    
