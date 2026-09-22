@@ -19,6 +19,7 @@ import java.util.InputMismatchException;
  * @author pierre
  */
 public class HelloWorld {
+    
 
     /**
      * Point d'entrée du programme.
