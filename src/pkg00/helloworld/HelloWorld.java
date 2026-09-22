@@ -27,6 +27,8 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
+        System.out.println("CIEL1 Test matin");
+        
         /*System.out.println("Affichage d'un message dans la console\nsur plusieurs lignes");
         
         Scanner sc = new Scanner(System.in);
