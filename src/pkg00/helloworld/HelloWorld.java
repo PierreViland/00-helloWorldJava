@@ -29,7 +29,7 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         
         System.out.print("x : ");
         int x = sc.nextInt();
@@ -45,8 +45,37 @@ public class HelloWorld {
         x=y;
         y=z;
         
-        System.out.println("x " +x +"  y: " +y );
+        System.out.println("x " +x +"  y: " +y );*/
+        
+        /*Scanner sc = new Scanner(System.in);
+        
+        System.out.print("a : ");
+        float a = sc.nextFloat();
+        
+        System.out.print("b : ");
+        float b = sc.nextFloat();
+        float resultat = (a+b)*2;
+        
+        System.out.print("Resultat " + resultat);*/
+        Scanner sc = new Scanner(System.in);
+        int opt;
+        
+        do{
+           System.out.print("Option : ");
+           opt = sc.nextInt() ;
+           
+           if(opt ==1){
+               System.out.println("Bonjour");
+           }
+           else if(opt ==2){
+               System.out.println("aU REVOIR");
+           }
+           
+           
+        }while(opt!=0);
+           
+        
+        
     }
     
-   
 }
