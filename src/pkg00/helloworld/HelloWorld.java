@@ -12,6 +12,8 @@
  */
 package pkg00.helloworld;
 import java.util.Scanner;
+
+
 import java.util.InputMismatchException;
 /**
  * Classe principale contenant la méthode main.
@@ -27,10 +29,23 @@ public class HelloWorld {
      * @param args Arguments de la ligne de commande. 
      */
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
-        //Exo 2 Achage d'un message dans la console
-        System.out.println("Message Ligne 1");
-        System.out.println("Message Ligne 2");
+        System.out.print("x : ");
+        int x = sc.nextInt();
+        
+        System.out.print("y : ");
+        int y = sc.nextInt();
+        
+        System.out.println("x " +x +"  y: " +y );
+        
+        int z =0;
+        
+        z=x;
+        x=y;
+        y=z;
+        
+        System.out.println("x " +x +"  y: " +y );
     }
     
    
